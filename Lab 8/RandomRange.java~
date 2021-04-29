@@ -1,0 +1,7 @@
+public class Random{
+  /** Returns random integer between high and low parameters.*/
+  public int randomRange(int low, int high){
+    Random generator = new Random();
+    return generator.nextInt(high-low+1) + low;
+  }
+}

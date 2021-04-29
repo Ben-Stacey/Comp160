@@ -1,0 +1,17 @@
+public class I{
+  public static void main(String[]args){
+    
+  }
+  
+  public static calcRunningTotal(int[] input){
+    int total, length;
+    length = input.length;
+    int [] result = new result[length];
+    for(int i:input[]){
+      result[total] += i;
+      total++;
+    }
+    return result[];
+    
+  }
+}

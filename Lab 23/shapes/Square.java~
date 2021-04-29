@@ -1,0 +1,7 @@
+public class Square extends Shape{
+ /* display method*/
+  public void display(Graphics g){
+    g.setColor(colour);//sets the colour of the circle
+    g.fillRect(x,y,width,height);//creates the circle
+  }//end method 
+}

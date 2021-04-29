@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class GuessAnimal{
+    static String[] animalGuessList = new String[3];
+    public static void main(String[]args){
+        String[] animalLongList = {"aadvark", "ant", "beaver", "Cheetah", "dingo", "elephant", "giraffe", "hippopotamus", "iguana",       "Jaguar", "Lion","monkey"};
+        for (int i = 0; i < animalGuessList.length; i++){
+            System.out.println( animalGuessList[i]);
+        }
+        for (int i = 0; i < animalLongList.length; i++){
+            System.out.println( i + " " + animalLongList[i]);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class TrafficLightPanelApp{
+  public static void main(String[]args){
+    JFrame frame = new JFrame("Traffic Light Panel");
+    grame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    TablePanel light = new TablePanel();
+    frame.getContentPanel().add(light);
+    frame.pack()
+    fram.setVisible(true);
+  }
+}

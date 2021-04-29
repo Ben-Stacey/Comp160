@@ -1,0 +1,9 @@
+public class SongApp{
+  public stativ void main(String[]args){
+    Song song1 = new Song();
+    
+    Song song2 = new Song():
+      
+    Song song3 = new Song():
+  }
+}

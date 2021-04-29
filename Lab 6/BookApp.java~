@@ -1,0 +1,9 @@
+public class BookApp{
+  public static void main(String[] args){
+    Book b1 = new Book("Good Owens", 230, 28.99);
+    
+    Book b3 = new Book("The Whale Rider", 120, 19.99);
+        
+    Book b3 = new Book("Bloke", 500, 22.22);
+  }
+}

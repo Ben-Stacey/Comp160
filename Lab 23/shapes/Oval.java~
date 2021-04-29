@@ -1,0 +1,18 @@
+package shapes;
+
+import java.awt.*;
+
+public abstract class Oval{
+  /* display method*/
+  
+  public Oval(){
+    int x = 5;
+    int y = 5;
+    int width = 5 ;
+    int height = width * 4;
+  }
+  public void display(Graphics g){
+    g.setColor(colour);//sets the colour of the circle
+    g.fillOval(x,y,width,height);//creates the circle
+  }//end method
+}

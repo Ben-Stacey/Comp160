@@ -1,0 +1,11 @@
+package shapes;
+
+import java.awt.*;
+
+public abstract class Circle{
+  /* display method*/
+  public void display(Graphics g){
+    g.setColor(colour);//sets the colour of the circle
+    g.fillOval(x,y,width,height);//creates the circle
+  }//end method
+}

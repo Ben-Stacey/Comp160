@@ -1,0 +1,15 @@
+public class Song{
+ private String songLine;
+ 
+ public Song(String sLine){
+   
+ }
+ 
+ public String toString(){
+   
+ }
+ 
+ public void process(){
+   
+ }
+}

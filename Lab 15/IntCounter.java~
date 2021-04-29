@@ -1,0 +1,23 @@
+public class IntCounter{
+  private int[] numArray;
+/*
+ * IntCounter class displays each member of the array and checks if target integer is reach
+ */
+  public IntCounter(int[] numArray){
+    String newString = "";
+    this.numArray = numArray;
+    for(int member:numArray){
+      newString += member;
+    }
+    System.out.println(newString + " Array is of length " + numArray.length());
+    System.out.println();
+  }//end method
+  
+  public void showTarget(int target){
+    for(int i = 0; i < numArray.length();i++){
+      if(target == numArray[i]){
+        System.out.println("There is a " + target + " in position " + i);
+      }
+    }
+  }//end method
+}//end class

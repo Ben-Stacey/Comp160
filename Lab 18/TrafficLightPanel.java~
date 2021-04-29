@@ -1,0 +1,23 @@
+public class TrafficLightPanel extends JPanel{
+  private JButton redButton;
+  private JButton greenButton;
+  private JButton amberButton;
+  private JLabel lastPressedButton
+  private JLabel buttonPanel;
+  
+  public TrafficLightPanel(){
+    ButtonListener implements ActionListener{
+      public void actionPerformed(ActionEvent e){
+        
+      }
+      LightPanel extends JPanel(){
+        public LightPanel(){
+          
+        }
+        public void paintComponent(Graphics g){
+          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class vowels{
+  public static void main(String[]args){
+    int vowel = 0;
+    int consonant = 0;
+    System.out.println("Enter a sentence: ");
+    Scanner scan = new Scanner(System.in);
+    String s = scan.nextLine();
+    for(int i = 0; i < s.length(); i++){
+      switch(i){
+        case 'A':
+          if(i == 'a' || i == 'A'){
+          vowel += 1;
+        }
+          break;
+        case 'B':
+          if(i == 'e' || i == 'E'){
+          vowel += 1;
+        }
+          break;
+        case 'C':
+          if(i == 'i' || i == 'I'){
+          vowel += 1;
+        }
+          break;
+        case 'D':
+          if(i == 'o' || i == 'O'){
+          vowel += 1;
+        }
+          break;
+        case 'E':
+          if(i == 'u' || i == 'U'){
+          vowel += 1;
+        }
+          break;
+        case 'F':
+          if(i != 'a' || i != 'e' || i != 'i' || i != 'o' || i != 'u' ||i != 'A' || i != 'E' || i != 'I' || i != 'O' || i != 'U'){
+          consonant += 1;
+        }
+          break;
+      }
+    }
+    System.out.println("Sentence is: " + s);
+    System.out.println("Vowel count: " + vowel);
+    System.out.println("Consonant Count " + consonant);
+  }
+}
